@@ -3,6 +3,7 @@ function calcGrade() {
     let totalQuestions = document.assignmentGrade.totalQuestions;
     let correctQuestionsInt = parseFloat(correctQuestions.value);
     let totalQuestionsInt = parseFloat(totalQuestions.value);
+    let resultDiv = document.getElementById("result")
 
     if (correctQuestions.value === "") {
         alert("Please enter the amount of correct questions");
@@ -25,7 +26,8 @@ function calcGrade() {
         return false;
     }
     else {
-        document.getElementById("result").innerHTML = "Your assignment grade is: " + ((correctQuestionsInt / totalQuestionsInt) * 100);
+        resultDiv.innerHTML = "Your assignment grade is: " + ((correctQuestionsInt / totalQuestionsInt) * 100);
+        resultDiv.style.display = "block";
         return false;
     }
 }
