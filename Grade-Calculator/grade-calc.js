@@ -7,7 +7,7 @@ function calcGrade() {
         correctQuestions.focus();
         return false;
     }
-    if (assignmentGrade.value === "") {
+    if (totalQuestions.value === "") {
         alert("Please enter the amount of total questions");
         totalQuestions.focus();
         return false;
