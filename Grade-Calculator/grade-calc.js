@@ -18,7 +18,7 @@ function calcGrade() {
         return false;
     }
     if (isNaN(totalQuestions.value)) {
-        alert("Please enter a numeric value into the correct questions text box.");
+        alert("Please enter a numeric value into the total questions text box.");
         totalQuestions.focus();
         return false;
     }
