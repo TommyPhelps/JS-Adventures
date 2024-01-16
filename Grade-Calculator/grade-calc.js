@@ -1,6 +1,6 @@
 function calcGrade() {
     let correctQuestions = document.assignmentGrade.correctQuestions
-    let totalQuestions = document.totalQuestions.totalQuestions
+    let totalQuestions = document.assignmentGrade.totalQuestions
 
     if (correctQuestions.value === "") {
         alert("Please enter the amount of correct questions");
