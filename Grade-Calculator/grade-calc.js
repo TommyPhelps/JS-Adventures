@@ -7,19 +7,22 @@ function calcGrade() {
         correctQuestions.focus();
         return false;
     }
-    if (totalQuestions.value === "") {
+    else if (totalQuestions.value === "") {
         alert("Please enter the amount of total questions");
         totalQuestions.focus();
         return false;
     }
-    if (isNaN(correctQuestions.value)) {
+    else if (isNaN(correctQuestions.value)) {
         alert("Please enter a numeric value into the correct questions text box.");
         correctQuestions.focus();
         return false;
     }
-    if (isNaN(totalQuestions.value)) {
+    else if (isNaN(totalQuestions.value)) {
         alert("Please enter a numeric value into the total questions text box.");
         totalQuestions.focus();
         return false;
+    }
+    else {
+        console.log("success");
     }
 }
