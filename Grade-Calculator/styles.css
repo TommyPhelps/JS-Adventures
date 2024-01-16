@@ -1,0 +1,49 @@
+* {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 20px;
+    padding: 20px 60px;
+    background-color: #CBCBCD;
+    max-width: 800px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: flex-start;
+}
+
+.submitBtn {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #585563;
+    color: #ffffff;
+}
+
+.submitBtn:hover {
+    background-color: #44424D;
+}
+
+.result {
+    display: none;
+    margin-top: 20px; /* Add margin to create space between the result div and the body */
+    background-color: #F0F0F0; /* Set a background color for the result div */
+    padding: 10px; /* Optional: Add padding for content within the result div */
+}
