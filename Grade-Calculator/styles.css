@@ -43,7 +43,7 @@ form {
 
 .result {
     display: none;
-    margin-top: 20px; /* Add margin to create space between the result div and the body */
-    background-color: #F0F0F0; /* Set a background color for the result div */
-    padding: 10px; /* Optional: Add padding for content within the result div */
+    margin-top: 20px;
+    background-color: #EBEBEB;
+    padding: 10px;
 }
