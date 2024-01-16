@@ -26,7 +26,7 @@ function calcGrade() {
         return false;
     }
     else {
-        resultDiv.innerHTML = "Your assignment grade is: " + ((correctQuestionsInt / totalQuestionsInt) * 100);
+        resultDiv.innerHTML = "Your assignment grade is: " + ((correctQuestionsInt / totalQuestionsInt) * 100).toFixed(2);
         resultDiv.style.display = "block";
         return false;
     }
