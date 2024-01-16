@@ -11,7 +11,7 @@
     <body>
         <h1>Welcome to my grade calculator written in JavaScript!</h1>
 
-        <form name="assignmentGrade" onsubmit="return(calcGrade())">
+        <form name="assignmentGrade" onsubmit="calcGrade(); return false;">
             <div>
                 <label for="correctQuestions">Number of right Questions: </label>
                 <input type="text" id="correctQuestions" name="correctQuestionsInput">
