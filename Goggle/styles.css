@@ -37,3 +37,14 @@ header {
 .header-left a {
     color: #B5B9BE;
 }
+
+.search-container {
+    flex: 1;
+}
+
+.search-container, .search-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
