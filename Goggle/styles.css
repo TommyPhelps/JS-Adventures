@@ -47,6 +47,17 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.search-items > img {
+    margin-top: 50px;
+}
+
+.search-items > textarea {
+    margin: 20px 0;
+    resize: none;
 }
 
 footer {
