@@ -25,9 +25,9 @@ a:hover {
 }
 
 header {
+    padding: 25px;
     display: flex;
     justify-content: space-between;
-    padding: 25px;
 }
 
 .header-left, .header-right {
@@ -37,10 +37,6 @@ header {
 
 .header-left a {
     color: #B5B9BE;
-}
-
-.search-container {
-    flex: 1;
 }
 
 .search-container, .search-items {
@@ -54,14 +50,14 @@ header {
 }
 
 .search-items > textarea {
-    color: #FFFFFF;
     margin: 20px 0;
-    resize: none;
     padding: 5px 20px;
-    border-radius: 15px;
     font-size: 14pt;
+    color: #FFFFFF;
     background-color: #1E1E20;
     border: solid 1px #55585D;
+    border-radius: 15px;
+    resize: none;
     overflow: hidden;
 }
 
@@ -71,11 +67,11 @@ header {
 }
 
 .search-buttons-container > button {
+    padding: 5px;
     color: #FFFFFF;
     background-color: #2A2B2E;
     border: solid 1px #1E1E20;
     border-radius: 5px;
-    padding: 5px;
 }
 
 .search-buttons-container > button:hover {
@@ -89,10 +85,10 @@ header {
 }
 
 footer {
-    display: flex;
-    justify-content: space-between;
     margin-top: auto;
     padding: 25px;
+    display: flex;
+    justify-content: space-between;
 }
 
 footer > div {
