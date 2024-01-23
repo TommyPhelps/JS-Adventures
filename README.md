@@ -42,3 +42,12 @@ myself with very little help from online sources and this was a great way to
 solidify the fundamentals for me. I am getting a lot better at CSS and
 Javascript this way. I can feel myself learning a lot more already. I am
 excited for my future projects!
+
+## Adventure 5: Goggle
+
+### Summary
+
+This was a great project to reinforce the skills I've aquired so far. I have
+enjoyed the process of styling this page to replicate Google. I actually got
+to do some work in Affinity Photo which was fun! This project was an absolute
+blast the whole way through and I enjoyed every second of it!
