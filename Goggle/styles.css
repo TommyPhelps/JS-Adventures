@@ -58,9 +58,48 @@ header {
     resize: none;
 }
 
+.search-buttons-container > button {
+    color: #FFFFFF;
+    background-color: #2A2B2E;
+    border: solid 1px #1E1E20;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.search-buttons-container > button:hover {
+    background-color: #3A3C40;
+    border: solid 1px #55585D;
+}
+
+.search-buttons-container > button:active {
+    background-color: #44464B;
+    border: solid 1px #55585D;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
     margin-top: auto;
     padding: 25px;
+}
+
+footer > div {
+    display: flex;
+}
+
+footer > * > a {
+    margin: 0 10px;
+}
+
+.footer-left {
+    justify-content: flex-start;
+    min-width: 30%;
+}
+.footer-middle {
+    justify-content: space-between;
+}
+.footer-right {
+    justify-content: flex-end;
+    min-width: 30%;
+    align-items: flex-end;
 }
